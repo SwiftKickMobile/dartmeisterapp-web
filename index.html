@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dart Meister — the darts scoring app for iOS. Score Cricket, x01 & Shanghai with up to 4 players.">
+  <meta name="apple-itunes-app" content="app-id=558652815">
+  <title>Dart Meister — Darts Scoring App for iOS</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html {
+      font-size: 13pt;
+      line-height: 1.5;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      color: #F8F6EE;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #5E5C57 0%, #3D3528 100%) no-repeat;
+      background-color: #3D3528;
+    }
+
+    h2 {
+      color: #EEDBB3;
+      margin-bottom: 0.5em;
+    }
+
+    ul { margin-left: 1.2em; margin-bottom: 1em; }
+    li { margin-bottom: 0.25em; }
+
+    .header {
+      background: url('images/chalk.jpg') center/cover;
+      padding: 20px 40px 40px;
+    }
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 960px;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    .hero .title {
+      flex: 1 1 400px;
+      padding: 40px 20px 40px 0;
+      text-align: center;
+    }
+
+    .hero .title img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .hero .title h2 {
+      font-size: 32pt;
+      color: white;
+      margin-top: 0;
+    }
+
+    .hero .screenshots {
+      flex: 1 1 400px;
+      padding: 40px 0 40px 20px;
+      text-align: center;
+    }
+
+    .hero .screenshots img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .buttons {
+      background: url('images/chairrail.png') repeat-x;
+      padding: 60px 20px 20px;
+      text-align: center;
+    }
+
+    .buttons img {
+      max-width: 200px;
+    }
+
+    .desc {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 60px 20px 0;
+    }
+
+    .desc p {
+      margin-bottom: 1em;
+    }
+
+    .feature-boxes {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .feature-boxes section {
+      flex: 1 1 400px;
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+
+    .dart {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .dart img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .games {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .games section {
+      flex: 1 1 250px;
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+
+    .footer {
+      padding: 60px 20px 20px;
+      text-align: center;
+      color: #929087;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: #929087;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      .hero { flex-direction: column; text-align: center; }
+      .hero .title { padding: 20px 0 0; flex-basis: auto; }
+      .hero .screenshots { padding: 0; flex-basis: auto; }
+      .feature-boxes { flex-direction: column; }
+      .games { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="http://swiftkickmobile.com"><img src="images/by_swiftkick_mobile.png" alt="By Swiftkick Mobile"></a>
+    </div>
+    <div class="hero">
+      <div class="title">
+        <img src="images/icon_dart_meister.png" alt="Dart Meister icon">
+        <h2>The darts scoring app for iOS.</h2>
+      </div>
+      <div class="screenshots">
+        <img src="images/iphones.png" alt="Dart Meister screenshots">
+      </div>
+    </div>
+  </header>
+
+  <div class="buttons">
+    <a href="https://apps.apple.com/us/app/dart-meister/id558652815">
+      <img src="images/appstore.png" alt="Download on the App Store">
+    </a>
+  </div>
+
+  <div class="desc">
+    <p><strong>Dart Meister makes scoring darts effortless — so you can focus on your game.</strong></p>
+    <p>Whether you're a beginner learning the rules or a seasoned player tracking every throw, Dart Meister's intuitive throw input system guides you through each round. See valid throws at a glance, visualize calculations, and let the app handle the math. Upgrade to Pro for personal statistics and full game history.</p>
+    <p>Supports Cricket, x01 &amp; Shanghai with up to 4 players or teams.</p>
+  </div>
+
+  <div class="feature-boxes">
+    <section>
+      <h2>Feature Highlights</h2>
+      <ul>
+        <li><strong>Score Cricket, x01 &amp; Shanghai</strong></li>
+        <li>Up to 4 players or teams</li>
+        <li>Numerous game options</li>
+        <li>Best throw entry system available</li>
+        <li>Advanced throw correction and round editing</li>
+        <li>Highlight where to throw and score</li>
+        <li>Visualize throws &amp; calculations</li>
+        <li>Novice or expert out advice (x01)</li>
+        <li>Game rules &amp; app tutorial</li>
+        <li>Unique, intuitive design</li>
+        <li>Fun sounds and achievement animations</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Pro Features*</h2>
+      <ul>
+        <li>Advanced personal statistics</li>
+        <li>Comprehensive saved game history</li>
+      </ul>
+      <p><small>* Requires In-App purchase</small></p>
+    </section>
+  </div>
+
+  <div class="dart">
+    <img src="images/dart.png" alt="Dart divider">
+  </div>
+
+  <div class="games">
+    <section>
+      <h2>Cricket Options</h2>
+      <ul>
+        <li>Standard, cut-throat or no points</li>
+      </ul>
+    </section>
+    <section>
+      <h2>x01 Options</h2>
+      <ul>
+        <li>Starting score: 101 to 5001</li>
+        <li>Double in or straight in</li>
+        <li>Double out or straight out</li>
+        <li>Novice or expert check out advice</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Shanghai Options</h2>
+      <ul>
+        <li>Starting number: 1 to 20</li>
+        <li>Number of rounds: 1 to 21</li>
+        <li>Double or triple out</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer class="footer">
+    &copy;2026 Tractable Labs LLC |
+    <a href="mailto:dartmeisterapp@tractablelabs.com">Contact Support</a> |
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</body>
+</html>
